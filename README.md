@@ -56,7 +56,8 @@ Aturan masukan di `main.py`:
 Uji otomatis (11 uji, bawaan Python):
 
 ```bash
-python3 -m unittest discover -s tests -v
+make test                              # 11 uji
+python3 -m unittest discover -s tests -v   # sama, tanpa make
 ```
 
 ## Catatan
